@@ -16,7 +16,9 @@
     "start": "PORT=50236 HOST=0.0.0.0 DANGEROUSLY_DISABLE_HOST_CHECK=true REACT_APP_ALLOW_CORS=true react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint src --ext .js,.jsx,.ts,.tsx --fix"
   },
   "eslintConfig": {
     "extends": [
