@@ -1,0 +1,91 @@
+.widget {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin-bottom: 16px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.widget:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.widget-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.widget-header h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.widget-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.widget-actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 4px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.widget-actions button:hover {
+  background-color: #f0f0f0;
+}
+
+.widget-description {
+  color: #555;
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.widget-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.widget-status {
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+.widget.active {
+  border-left: 4px solid #4caf50;
+}
+
+.widget.active .widget-status {
+  color: #4caf50;
+  background-color: rgba(76, 175, 80, 0.1);
+}
+
+.widget.pending {
+  border-left: 4px solid #ff9800;
+}
+
+.widget.pending .widget-status {
+  color: #ff9800;
+  background-color: rgba(255, 152, 0, 0.1);
+}
+
+.widget.completed {
+  border-left: 4px solid #2196f3;
+}
+
+.widget.completed .widget-status {
+  color: #2196f3;
+  background-color: rgba(33, 150, 243, 0.1);
+}
