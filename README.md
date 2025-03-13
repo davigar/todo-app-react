@@ -7,6 +7,9 @@ A simple TODO list application built with React that persists data in localStora
 - Add new tasks
 - Mark tasks as completed
 - Delete tasks
+- Add optional due dates to tasks
+- Edit due dates by clicking on them
+- Visual indication for overdue tasks
 - Filter tasks (All, Active, Completed)
 - Clear all completed tasks
 - Persistent storage using localStorage
