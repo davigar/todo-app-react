@@ -1,4 +1,18 @@
-# Getting Started with Create React App
+# React TODO App with localStorage
+
+A simple TODO list application built with React that persists data in localStorage.
+
+## Features
+
+- Add new tasks
+- Mark tasks as completed
+- Delete tasks
+- Add optional due dates to tasks
+- Edit due dates by clicking on them
+- Visual indication for overdue tasks
+- Filter tasks (All, Active, Completed)
+- Clear all completed tasks
+- Persistent storage using localStorage
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
